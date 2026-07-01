@@ -16,6 +16,7 @@ pip install -r requirements.txt
 ## Status
 
 - [x] Black-Scholes pricing
+- [x] Option Greeks (Delta, Gamma, Vega, Theta, Rho)
 - [ ] Monte Carlo verification
 - [ ] Volatility modeling (GARCH/EWMA)
 - [ ] VaR
