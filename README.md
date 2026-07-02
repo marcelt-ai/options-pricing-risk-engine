@@ -2,10 +2,10 @@
 
 Portfolio project integrating four modules:
 
-- **Black-Scholes** — closed-form pricing of European call/put options.
-- **Monte Carlo** — numerical verification of Black-Scholes via GBM simulation.
-- **Volatility Modeling** — GARCH/EWMA to feed a better σ into Black-Scholes than flat historical volatility.
-- **VaR** — Value at Risk (historical, parametric, Monte Carlo).
+- **Black-Scholes** - closed-form pricing of European call/put options.
+- **Monte Carlo** - numerical verification of Black-Scholes via GBM simulation.
+- **Volatility Modeling** - GARCH/EWMA to feed a better σ into Black-Scholes than flat historical volatility.
+- **VaR** - Value at Risk (historical, parametric, Monte Carlo).
 
 ## Setup
 
