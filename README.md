@@ -13,6 +13,10 @@ Portfolio project integrating four modules:
 pip install -r requirements.txt
 ```
 
+## Demo
+
+[`notebooks/01_end_to_end_pricing_risk_engine.ipynb`](notebooks/01_end_to_end_pricing_risk_engine.ipynb) runs the full pipeline end-to-end on real market data: fetches prices, compares flat/EWMA/GARCH volatility, prices an option with Black-Scholes and plots its Greeks, verifies the price with Monte Carlo, and computes VaR/CVaR by all three methods.
+
 ## Status
 
 - [x] Black-Scholes pricing
@@ -20,3 +24,4 @@ pip install -r requirements.txt
 - [x] Monte Carlo verification
 - [x] Volatility modeling (GARCH/EWMA)
 - [x] VaR and CVaR (historical, parametric, Monte Carlo)
+- [x] End-to-end demo notebook
